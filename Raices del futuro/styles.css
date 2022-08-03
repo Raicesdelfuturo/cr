@@ -1,0 +1,162 @@
+body{
+    font-family: sans-serif;
+    background-color: mediumseagreen;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    display: flex;
+    background-color: white;
+    min-height:110px ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eslogan{
+    display: flex;
+    align-items: center;
+    color: mediumseagreen;
+    font-size: 20px;
+}
+
+#logo{
+    height: 250px; 
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 600;
+    color: mediumseagreen;
+    font-size: 26px;
+    padding-right: 25px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: rgb(97, 149, 192);
+}
+
+@media (max-width:1450px){
+    header{
+        flex-direction: column;
+    }
+    .eslogan{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+#sobrenosotros{
+margin: 50px;
+max-width: 100%;
+height: auto;
+text-align: justify ;
+background-color: white;
+padding: 20px;
+border-radius: 30px;
+}
+
+
+.titulos{
+    font-size: 30px;
+    text-align: center;
+}
+
+#parrafos{
+    font-size: 20px;
+}
+
+.razones{
+    font-size: 17px;
+}
+
+#Objetivos{
+    margin: 50px;
+    max-width: 100%;
+    height: auto;
+    text-align: justify;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    }
+
+
+
+
+#reportes{
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+
+#titulofallo{
+    color: mediumseagreen;
+    text-align: center;
+    font-size: 30px;
+}
+#segundofallo{
+    color:green;
+    text-align: center;
+    font-size: 25px;
+}
+
+#formulario{
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formlabels{
+    display: block;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.campos{
+    display: block;
+    width: 90%;
+    height: 1.9rem;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid black;
+    border-radius: 0.30rem;
+}
+
+#dropdown{
+    display: block;
+    width: 93%;
+    height: 2.5rem;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid black;
+    border-radius: 0.30rem;
+    font-family:sans-serif;
+}
+
+#submit{
+    display: inline;
+    width: 80%;
+    height: 2.5rem;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid black;
+    border-radius: 0.30rem;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+#submit:hover{
+    background-color: green;
+    color:white;
+    cursor: pointer;
+}
